@@ -1,0 +1,72 @@
+/* Start with a reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/* onto the main attraction */
+
+
+body {
+	background-color: rgba(244,244,244,0.9);
+	font-family: Helvetica, Verdana, sans-serif;
+	line-height: 1.25em;
+}
+
+header {
+	height: .5em;
+	background-color: #242323;
+	position: relative;
+}
+
+.clear {
+	clear: both;
+}
+
+#content {
+	margin: 1.25em auto;
+	max-width: 900px;
+	height: 100%;
+}
+
+h1 {
+	color: #272727;
+	font-size: 2.5em;
+	font-weight: 700;
+	margin: 0 0 .65em 0;
+}
+
+
+p {
+	font-weight: 100;
+	margin: 0 0 .5em .75em;
+	padding: .25em 0 0 0;
+}
+
+.inset {
+	padding-left: 1.35em;
+}
+
+.thumb {
+	max-height: 150px;
+	margin: 1.43em;
+	background: #f5f2f2;
+	box-shadow: 0.35em 0.35em 0.65em #666;
+}
+
+footer {
+	max-width: 900px;
+/* 	position: absolute; */
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	margin: 0 auto;
+	text-align: center;
+	font-size: .9em;
+}
